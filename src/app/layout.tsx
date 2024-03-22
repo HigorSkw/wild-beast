@@ -1,8 +1,11 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Vollkorn } from 'next/font/google';
 import './global.css';
 
-const inter = Inter({ subsets: ['latin'] });
+const vollkorn = Vollkorn({
+  weight: ['400', '600', '700'],
+  subsets: ['latin'],
+});
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -16,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={vollkorn.className}>
         <div className="estrutura">{children}</div>
       </body>
     </html>

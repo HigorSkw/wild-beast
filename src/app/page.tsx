@@ -1,3 +1,6 @@
+import { AsideComponent } from '@/components/Aside';
+import { ContentComponent } from '@/components/Content';
+import { FooterComponent } from '@/components/Footer';
 import { HeaderComponent } from '@/components/Header';
 import { SideNavComponent } from '@/components/SideNav';
 
@@ -6,7 +9,9 @@ export default function Home() {
     <main>
       <HeaderComponent />
       <SideNavComponent />
-      <div>alguma coisa</div>
+      <ContentComponent />
+      <AsideComponent />
+      <FooterComponent />
     </main>
   );
 }

@@ -1,3 +1,21 @@
+body,
+p,
+h1,
+ul,
+li,
+blockquote {
+  padding: 0;
+  margin: 0;
+}
+
 body {
-  background-color: beige;
+  font-family: 'Volkors', Georgia, 'Times New Roman', Times, serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
