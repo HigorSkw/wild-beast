@@ -6,7 +6,7 @@ import { SideNavComponent } from '@/components/SideNav';
 
 export default function Home() {
   return (
-    <main>
+    <main className="estrutura">
       <HeaderComponent />
       <SideNavComponent />
       <ContentComponent />

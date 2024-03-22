@@ -7,7 +7,7 @@ import Image from 'next/image';
 export const HeaderComponent = () => {
   return (
     <S.Header>
-      <Image src={logo} alt="WildBeastLogo" width={100} height={100} />
+      <Image src={logo} alt="WildBeastLogo" width={200} height={200} />
       <nav>
         <ul>
           <li>

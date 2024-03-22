@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={vollkorn.className}>
-        <div className="estrutura">{children}</div>
+        <div>{children}</div>
       </body>
     </html>
   );
