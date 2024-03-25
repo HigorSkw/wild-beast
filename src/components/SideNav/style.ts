@@ -6,7 +6,8 @@ export const SideNav = styled.nav`
   padding: 30px;
 
   li a {
-    display: block;
+    display: flex;
+    justify-content: center;
     min-width: 60px;
     max-width: 100px;
     margin: 0 auto 30px auto;
