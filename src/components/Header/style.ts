@@ -8,6 +8,22 @@ export const Header = styled.header`
   grid-template-columns: 1fr auto;
   align-items: center;
 
+  @media (max-width: 760px) {
+    grid-template-columns: auto;
+
+    .logo {
+      margin-bottom: 20px;
+    }
+
+    nav a {
+      font-size: 1em;
+    }
+
+    li + li {
+      margin-left: 10px;
+    }
+  }
+
   nav ul {
     display: flex;
     flex-wrap: wrap;
