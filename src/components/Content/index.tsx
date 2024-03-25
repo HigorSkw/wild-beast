@@ -24,7 +24,7 @@ export const ContentComponent = () => {
         </div>
       </div>
 
-      <p>
+      <p className="col-wide">
         É um sobrevivente da Era do Gelo, originário do Pleistoceno Superior,
         cerca de 300 mil anos atrás.[2] O sequenciamento de DNA e estudos
         genéticos reafirmam que o lobo cinzento é ancestral do cão doméstico.
@@ -53,8 +53,8 @@ export const ContentComponent = () => {
         Alasca, Canadá,[8] e na antiga União Soviética.
       </p>
 
-      <blockquote className="citacao">
-        <p className="col-wide">
+      <blockquote className="citacao col-wide">
+        <p>
           “Há algo no uivar do lobo que tira um homem do aqui e agora e o
           transporta para uma floresta da mente.”
         </p>
@@ -70,7 +70,7 @@ export const ContentComponent = () => {
       </ul>
 
       <div className="informacoes">
-        <p className="col-wide">
+        <p>
           É um sobrevivente da Era do Gelo, originário do Pleistoceno Superior,
           cerca de 300 mil anos atrás.[2] O sequenciamento de DNA e estudos
           genéticos reafirmam que o lobo cinzento é ancestral do cão doméstico.

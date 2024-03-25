@@ -4,9 +4,14 @@ export const Content = styled.main`
   grid-area: content;
   max-width: 900px;
   margin: 0 auto;
+  padding: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
+
+  @media (max-width: 600px) {
+    grid-template-columns: auto;
+  }
 
   .col-wide {
     grid-column: 1/ -1;
@@ -14,11 +19,11 @@ export const Content = styled.main`
 
   .imagem-1 {
     grid-row: span 2;
-    align-self: flex-end;
+    align-self: end;
   }
 
   .imagem-2 {
-    align-self: flex-end;
+    align-self: end;
   }
 
   p {
@@ -54,6 +59,7 @@ export const Content = styled.main`
 
   .caracteristicas span {
     display: block;
+    color: #b07dfb;
   }
 
   .caracteristicas > div {
@@ -70,7 +76,6 @@ export const Content = styled.main`
   }
 
   .numero {
-    color: #b07dfb;
     font-size: 3em;
     line-height: 1;
     margin: 10px auto;
@@ -79,7 +84,6 @@ export const Content = styled.main`
   .rotulo {
     background: white;
     border-radius: 0 0 5px 5px;
-    color: #b07dfb;
     padding: 5px 0;
     position: relative;
     top: 2px;
@@ -93,11 +97,11 @@ export const Content = styled.main`
 
   .citacao,
   .atributos {
-    grid-area: anuncios;
+    align-self: start;
+    padding: 30px;
     border-radius: 5px;
     box-shadow: 5px 5px 15px 0px, rgba(0, 0, 0, 0.15);
     background: linear-gradient(135deg, #8844ee, #b07dfb);
-    align-self: flex-start;
   }
 
   .citacao p {

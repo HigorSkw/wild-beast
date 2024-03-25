@@ -6,8 +6,7 @@ export const SideNav = styled.nav`
   padding: 30px;
 
   li a {
-    display: flex;
-    justify-content: center;
+    display: block;
     min-width: 60px;
     max-width: 100px;
     margin: 0 auto 30px auto;
@@ -15,7 +14,7 @@ export const SideNav = styled.nav`
     padding: 20px;
     border-radius: 5px;
     box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
-    transition: 0.1s ease-in-out;
+    transition: 0.1s ease-out;
   }
 
   li a:hover {

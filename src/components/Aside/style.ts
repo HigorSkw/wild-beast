@@ -7,4 +7,5 @@ export const Aside = styled.aside`
   align-content: start;
   padding: 30px;
   gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 `;
